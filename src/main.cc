@@ -23,6 +23,4 @@ int main() {
 
     auto br = parseBidRequest(document);
     cout << br->id << endl;
-
-    /* My Optional implementation triggers a segmentation in its destructor, figure out why */
 }
