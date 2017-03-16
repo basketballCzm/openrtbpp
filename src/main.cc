@@ -7,7 +7,7 @@
 
 using namespace std;
 using namespace rapidjson;
-czm
+
 int main() {
     ifstream in("bid_requests.json");
     if (!in) {
